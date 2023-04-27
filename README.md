@@ -1,0 +1,1 @@
+FROM is the first instruction should be in Dockerfile
