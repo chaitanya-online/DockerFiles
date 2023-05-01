@@ -1,0 +1,1 @@
+The copy command which is used to copy our local files to image
