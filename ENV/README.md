@@ -1,0 +1,1 @@
+ENV which is used to provide environment variables to the image and container
