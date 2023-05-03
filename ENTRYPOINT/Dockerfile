@@ -1,6 +1,6 @@
 FROM almalinux
-CMD ["ping","-c5","google.com"]
-
+# CMD ["ping","-c5","google.com"]
+ENTRYPOINT ["ping","-c5","google.com"]
 
 # After building an image for this docker file  -- > docker build -t entrypoint:v1 .
 # By running this image -- > docker run entrypoint:v1  by default it pings to google.com
