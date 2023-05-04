@@ -8,3 +8,5 @@ Once u declared ARG  variable before FROM u can't be access after FROM
 Create one ENV variable and assign value of ARG to it 
 
 Then we can access ARG values through ENV in both image and container
+
+By usig ENV only we can access arg variablesin container
