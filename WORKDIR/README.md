@@ -1,1 +1,1 @@
-it is used to set path to iamge
+it is used to set file directory path 
