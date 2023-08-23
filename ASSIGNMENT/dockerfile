@@ -4,8 +4,6 @@ FROM httpd:latest as httpd_image
 # Stage 2: Use httpd as base and add Ubuntu
 FROM httpd_image
 
-# Install Ubuntu packages
-RUN apt-get update && apt-get install -y ubuntu-package1 ubuntu-package2
 
 # Copy your index.html file
 COPY index.html /usr/local/apache2/htdocs/
