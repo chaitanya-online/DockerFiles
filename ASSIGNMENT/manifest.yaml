@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapachetest
+spec:
+  containers:
+    - name: myapachetest
+      image: richeb/apachetest:v1
+      ports:
+      - containerPort: 80
