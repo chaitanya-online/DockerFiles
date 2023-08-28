@@ -7,4 +7,17 @@ spec:
     - name: myapachepod
       image: richeb/apachetest:v1
       ports:
-      - containerPort: 80
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapachepod-service
+spec:
+  type: LoadBalancer
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  selector:
+    app: myapachepod
