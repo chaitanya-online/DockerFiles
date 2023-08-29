@@ -4,4 +4,4 @@ services:
     image: richeb/apachetest:v1
     container_name: apache
     ports:
-      - "8086:8080"
+      - "8086:8081"
